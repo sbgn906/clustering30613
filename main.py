@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from sklearn.cluster import KMeans
+from sklearn import KMeans
 import plotly.express as px
 
 st.set_page_config(page_title="배달 위치 군집 시각화", layout="wide")
